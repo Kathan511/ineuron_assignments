@@ -4,5 +4,3 @@ def filter_long_words(lst,n):
         if len(i)>n:
             lst1.append(i)
     return lst1
-
-print(filter_long_words(["aa","aaaa","aaaaaa",'a'],2)) 
